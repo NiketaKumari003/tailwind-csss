@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+<!-- Navbar -->
+
+<nav class="flex justify-between items-center shadow-sm shadow-black bg-gray-500 py-3 px-4 text-white">
+    <h1 class="text-2xl font-bold ">Nikki</h1>
+    <div class="flex justify-center gap-3 font-semibold ">
+     <h1>About</h1>
+     <h1>Skills</h1>
+     <h1>Experience</h1>
+     <h1>Contact</h1>
+    </div>
+ </nav>
+<!-- Allways main box --> 
+
+ <main  class=" px-10 py w-full h-full  space-y-7 ">
+
+<section  class="px-3 py-16 flex justify-around ">
+    <!-- if it's will be square and you give rounded-full then become circle -->
+    <img  class="rounded-full w-72 h-72" src="./img/profile.jpeg" alt="Profile Pic">
+<div class="flex flex-col items-center justify-center gap-3">
+    <h1 class="text-2xl font-semibold">Hello , I'm</h1>
+    <h1 class="text-3xl font-bold text-orange-500">Niketa Kumari</h1>
+    <h1 class="text-gray-500" >Engineer & Software Developer</h1>
+    <div class="flex flex-row gap-5">
+        <button class="px-5 py-1 bg-slate-200 ring-1 ring-black rounded-full hover:bg-black hover:text-white items-center">Download CV</button>
+        <button class="px-5 py-1 bg-slate-200 ring-1 ring-black rounded-full hover:bg-black hover:text-white items-center">Contact info</button>
+    </div>
+    <div class="flex flex-row">
+        <img class="h-8  rounded-full" src="./img/github.jpeg" alt="">
+        <img class="h-8 rounded-full" src="./img/in.jpeg" alt="">
+    </div>
+</div>
+</section >
+ <!-- horizonatal Line -->
+ <div class="w-screen border-b border-gray-500 "></div>
+<!-- Section 2  -->
+<section class=" px-44 py-14" >
+    
+    <div class="flex flex-col gap-2 justify-center items-center py-5">
+        <h1 class="text-lg">Get to know more</h1>
+        <h1 class="font-bold text-2xl">ABOUT</h1>
+    </div>
+
+    <div class="flex flex-row justify-center ">
+        <img class="ring-1 ring-gray-600 rounded-md px-10 bg-gray-600 py-4" src="./img/sidePic.avif" alt="">
+        <div class="flex flex-col  px-20 gap-5">
+            <div class="flex flex-row justify-between items-center gap-5">
+                <div class="px-16 py-5 flex flex-col justify-center gap-1 ring-1 ring-black rounded-xl items-center w-fit">
+                 <img class="w-10 h-10" src="./img/win.png" alt="">
+                 <h1 class="font-bold text-black text-2xl">Experince 1</h1>
+                 <h1 class="text-gray-600" >2+ Years</h1>
+                 <h1 class="text-gray-600">Fronend Developer</h1>
+                </div>
+               
+                 <div class="px-16 py-5 flex flex-col justify-center gap-1 ring-1 ring-black rounded-xl items-center w-fit">
+                  <img class="w-10 h-10" src="./img/win.png" alt="">
+                  <h1 class="font-bold text-black text-2xl">Experince 1</h1>
+                  <h1 class="text-gray-600" >2+ Years</h1>
+                  <h1 class="text-gray-600">Fronend Developer</h1>
+                 </div>
+                
+                
+    
+             </div>
+             <p class="text-md text-black bg-gray-100 px-2 py-2 rounded-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis deleniti amet mollitia id magnam dolor possimus nisi! Iure, ipsam impedit dolor sapiente illo reprehenderit molestias laboriosam, maiores, placeat quae repellat.</p>
+          
+        </div>
+        
+        
+    </div>
+</section>
+
+ </main>
+
+ <!-- horizonatal Line -->
+ <div class="w-screen border-b border-gray-500 "></div>
+
+ <footer class="flex flex-col items-center justify-center gap-2 py-16">
+    <img class="w-14 h-14" src="./img/footer pic.jpeg" alt="">
+   <h1 class="flex items-center gap-2">Made by Niki<span><img class="h-3 w-3" src="./img/win.png" alt=""></span></h1>
+ </footer>
+   
+</body>
+</html>
+
+<!-- output.css hi link hogi sabhi mai 
+to jab bhi tu koi node ka projcet bhi banyegi to last sabhi ka html ka code hone k baad jab is cmd "npx tailwindcss public/input.css -o public/output.css" 
+se build karegi to bs vo final css add kare degi to uske liye koi alag se render vagera per bhi cmd nhi dalni ,,, ok -->
+
+
+<!-- done.. abhi mane sirf tereko sikhane k liye alsomost sabhi classes use ki 
+except margin and trnasiton or transform vagera.. -->
+
+<!-- plust it's not responive , so phone per bkar dikhega -->
